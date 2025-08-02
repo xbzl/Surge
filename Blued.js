@@ -1,7 +1,3 @@
-
-// Blued 闪照提醒脚本 for Surge
-// 作者: @coll1
-
 let body = $response.body;
 
 try {
