@@ -1,6 +1,5 @@
 [Script]
-Blued Flash Notify = type=http-response,pattern=^https:\/\/app\.bld\.com\/message\/v3\/message\/new,requires-body=true,script-path=https://raw.githubusercontent.com/xbzl/Surge/refs/heads/main/Blued.js
+blued-flash-photo = type=http-request,pattern=^https?:\/\/.*\.(jpg|jpeg|png|gif|webp).*$,requires-body=0,script-path=https://raw.githubusercontent.com/yourname/yourrepo/main/BluedFlashPhoto.js
 
 [MITM]
-hostname = app.bld.com
-
+hostname = *.blued.cn, *.blued.com
