@@ -1,0 +1,4 @@
+#!name=Blued闪照查看
+#!desc=允许查看 Blu** 的闪照
+[Script]
+Blued_Flash_View = type=http-response,pattern=https:\/\/api.blued.cn\/v2\/feed\/flash_view.*,requires-body=true,max-size=0,script-path=https://raw.githubusercontent.com/coll1/KongTadashi/main/Surge/Scripts/Blued%E6%9F%A5%E7%9C%8B%E9%97%AA%E7%85%A7.js
